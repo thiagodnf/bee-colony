@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bee Colony by Thiago Nascimento</title>
+		<meta charset="utf-8" />
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+		<meta name="description" content="Bee Colony by Thiago Nascimento" />
+		<meta name="keywords" content="vacuum cleaner,vacuum,cleaner,aspirador de pó,aspirador" />
+		<meta name="author" content="Thiago Nascimento" />
+		<meta name="revised" content="Thiago Nascimento, 22/06/2012" />
+		<link type="text/css" rel="stylesheet" href="css/redmond/jquery-ui-1.8.21.custom.css " />
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"></script>
+		<script type="text/javascript" src="js/scoutbee.js"></script>
+		<script type="text/javascript" src="js/activebee.js"></script>
+		<script type="text/javascript" src="js/food.js"></script>
+		<script type="text/javascript" src="js/colony.js"></script>
+		<script type="text/javascript" src="js/environment.js"></script>
+		<script type="text/javascript" src="js/aspirator.js"></script>
+		<script type="text/javascript" src="js/main.js"></script> 
+		<!-- <script type="text/javascript" src="js/main.min.js"></script> -->
+		<!-- 
+		<script type="text/javascript" src="http://quickribbon.com/ribbon/2012/06/5a658e38c022e01e9548a3b09c7a7f3a.js"></script><noscript><a href="http://quickribbon.com/">Quickribbon</a></noscript>
+		 -->
+		<script type="text/javascript">
+
+
+	</script>					
+	</head>
+	<body>
+		<div id="header">
+			<img id="logo" src="images/logo.png" alt="Logotipo"/>
+			<div id="divHelp">
+			<!-- 
+				<a href="#" id="anchorOpenHelp">How it works?</a> -->
+			</div>	
+		</div>	
+		<div id="menu">
+			<div id="divControlPane">
+				<a href="#" id="buttonPlay" class="button">Play</a>			
+				<a href="#" id="buttonStep" class="button">Step</a>
+				| 
+				<a href="#" id="buttonAdd" class="button">Add</a>
+				<!--<a href="#" id="buttonClear" class="button">Clear</a>
+				 <a href="#" id="buttonShare" class="button">Share</a> 
+				 <input type="checkbox" id="buttonGrid" /><label id="labelButtonGrid" for="buttonGrid">Grid</label> 
+				 <a href="#" id="buttonZoom" class="button">Zoom</a> 
+				 <a href="#" id="buttonGrid" class="button">Grid</a> --> 
+			</div>			
+			<div id="divSpeed">
+				<label id="labelSpeed">Speed: 5</label>
+				<div id="sliderSpeed"></div>
+			</div>
+			
+		</div>	
+		<canvas id="canvasGame" width="600" height="400"></canvas>
+		<div id="dialog-modal" title="Game of Life">
+			
+		</div>
+		<div id="dialog-share" title="Share this map">
+			<label id="label-link-share">Copy this link.</label><br>
+			<input id="input-link-share" type="text"/>
+		</div>
+		<div id="divContainerZoom">
+			<label id="labelZoom">Zoom: 1</label>
+			<div id="sliderZoom"></div>
+		</div>	
+		<div id="divContainerAdd">
+			<label id="labelZoom"></label>
+			<div id="sliderZoom"></div>
+		</div>		
+	</body>
+</html>
